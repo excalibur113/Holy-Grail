@@ -2,7 +2,6 @@
   box-sizing: border-box;
   font-size: 25px;
   font-weight: 100;
-  float: center;
 }
 header, footer{
   height: 10vh;
@@ -47,14 +46,15 @@ nav{
   padding-bottom: 5px;
 }
 .flex-item.left{
-  padding-right: 50px;
+  padding-right: 20px;
+  width: 60%;
 }
 
 .field input {
-  flex: 2;
+  flex: 1;
   padding: 10px;}
 .field select{
-  flex: 2;
+  flex: 1;
   padding: 5px;
 }
 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Grail Layout with Forms</title>
+  <link rel="stylesheet" href="./holygrail2.css">
+</head>
+<body>
+  <header>Header</header>
+  <main>
+    <div style="width: 60%; padding: 20px;">
+    <article>
+     <form>
+      <div class="container">
+        <div class="flex-item left">
+          <div class="field">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullName">
+          </div>
+        <div class="field">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+          </div>         
+          <div class="field">
+              <label for="date/time">Pick up Date/Time</label>
+              <input type="datetime-local" name="date/time" id="date/time">
+          </div>
+          <div class="field">
+            <label for="dropdown">Pick-up Place</label>
+            <select name="dropdown" id="dropdown" >
+        
+              <option 
+                selected
+                disabled
+              >
+                Select one
+              </option>
+              <option value="vinland">Vinland</option>
+              <option value="iceland">Iceland</option>
+              <option value="denmark">Denmark</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="place">Dropoff Place</label>
+            <input type="text" id="place">
+          </div> 
+        </div>
+
+          <div class="flex-item right">Which vehicle do you require? <br>
+            <input type="radio" name="vehicle">
+              <label for="van">Van</label>
+              <br>
+              <input type="radio" name="vehicle">
+              <label for="jeepney">Jeepney</label>
+              <br>
+              <input type="radio" name="vehicle">
+              <label for="tricycle">Tricycle</label>
+              <br><br>
+              <div class="flex-item right 2">Extras <br>
+                <input type="radio" name="extras">
+                <label for="babyseat">Baby Seat</label>
+                <br>
+                <input type="radio" name="vehicle">
+                <label for="wheelchair">Wheelchair Access</label>
+                <br>
+                <input type="radio" name="vehicle">
+                <label for="stocktip">Stock Tip</label>
+              </div>
+
+          </div>
+      </div>
+      <div class="btn-container">
+        <input type="submit" value="Submit Booking">
+    </div>
+     </form>
+    </article>
+  </div>
+    <aside>Aside</aside>
+    <nav>Nav</nav>
+  </main>
+  <footer>Footer</footer>
+</body>
+</html>

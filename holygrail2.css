@@ -73,7 +73,6 @@ input[type="submit"]:hover {
 }
 form {
   flex-direction: column;
-  justify-content: center;
   padding: 20px;
   height: 100%;
 }
